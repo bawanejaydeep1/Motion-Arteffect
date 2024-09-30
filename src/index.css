@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-gradient {
+  background: linear-gradient(90deg, #F87516 0%, #5E11FF 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.tg2 {
+  background: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn-gradient{
+  background: linear-gradient(90deg,#5E11FF 0%, #F87516 100%);
+
+}
+.bg-section{
+  background:linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(35,28,51,1) 41%);
+}
+.bg-support-section{
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(35,28,51,1) 40%);
+}
+.bg-copyright{
+  background: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+}
